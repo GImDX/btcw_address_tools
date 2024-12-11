@@ -1,0 +1,68 @@
+# config.yaml
+# 这是一个示例配置文件，用于设置程序参数
+
+# RPC 服务器的 URL，发送交易的主节点
+url: "http://192.168.8.115:9330"
+
+# RPC 服务器的用户名
+username: "USER"
+
+# RPC 服务器的密码
+password: "PASS"
+
+# 检查未确认交易的时间间隔（秒）
+checkInterval: 100
+
+# 用于prioritisetransaction RPC的费用增量（sat/vB）
+feeDelta: 1000000000000000000
+
+# 其他挖矿节点的配置，用于发送prioritisetransaction RPC
+prioritiseTransactionURLs:
+  - url: "http://192.168.8.115:9331"
+    username: "USER"
+    password: "PASS"
+#  - url: "http://192.168.8.115:9332"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9333"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9334"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9335"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9336"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9337"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9338"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9339"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9340"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9341"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9342"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9343"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9344"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9345"
+#    username: "USER"
+#    password: "PASS"
+#  - url: "http://192.168.8.115:9346"
+#    username: "USER"
+#    password: "PASS"

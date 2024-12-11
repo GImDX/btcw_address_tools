@@ -1,0 +1,41 @@
+# config.yaml
+# 这是一个示例配置文件，用于设置程序参数
+
+# RPC 服务器的 URL，使用节点所有可用錢包
+url: "http://192.168.8.115:9330"
+
+# RPC 服务器的用户名
+username: "USER"
+
+# RPC 服务器的密码
+password: "PASS"
+
+# 读取地址信息的JSON文件路径，即输出钱包
+addressFile: "../btcw17.json"
+
+# sendmany操作中使用的地址数量上限
+addressLimit: 2800
+
+# 每个地址分配的BTC数量
+amounts: 0.00001
+
+# 交易费率（sat/vB）
+feerate: 100
+
+# 防止误操作，false时用于测试，不发送
+isSend: true
+
+# 执行 sendmany 操作的最大次数
+maxSendCount: 30
+
+# 每个钱包允许的最大未确认交易大小，需要满足 limitdescendantsize < 101kB, limitdescendantcount < 25, limitancestorsize < 101kB, limitancestorcount < 25
+maxUnconfSize: 90000
+
+# listunspent RPC 的最小确认数，当钱包存在确认数介于[minconf, maxconf]的交易时，跳过不发送
+minconf: 0
+
+# listunspent RPC 的最大确认数
+maxconf: 0
+
+# 每次操作间的等待时间（秒）
+sleepSec: 100

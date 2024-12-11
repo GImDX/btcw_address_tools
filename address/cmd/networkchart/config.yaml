@@ -1,0 +1,14 @@
+# config.yaml
+# 这是一个示例配置文件，用于设置程序参数
+
+# RPC 服务器的 URL
+url: "http://192.168.8.115:9331"
+
+# RPC 服务器的用户名
+username: "USER"
+
+# RPC 服务器的密码
+password: "PASS"
+
+# 查询区块间隔，默认120
+nblocks: 10

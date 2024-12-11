@@ -1,0 +1,10 @@
+# config.yaml
+# 这是一个示例配置文件，用于设置程序参数
+
+# 输入文件路径
+# 此文件应包含待处理的文本数据
+inputFilePath: btcw17
+
+# 输出文件路径
+# 程序将把处理结果写入此文件
+outputFilePath: btcw17_edit

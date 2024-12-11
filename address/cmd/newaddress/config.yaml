@@ -1,0 +1,29 @@
+# config.yaml
+# 这是一个示例配置文件，用于设置程序参数
+
+# RPC 服务器的 URL
+url: "http://192.168.8.115:9347"
+
+# RPC 服务器的用户名
+username: "USER"
+
+# RPC 服务器的密码
+password: "PASS"
+
+# 是否创建新钱包的标志（true 或 false）
+isCreateWallet: true
+
+# 新钱包的名称
+newWallet: "btcw17"
+
+# 是否创建新地址的标志（true 或 false）
+isCreateAddress: true
+
+# 创建新地址的数量
+newAddressCount: 3000
+
+# 创建地址之间的时间间隔（以毫秒为单位）
+interval: 10
+
+# 输出文件的路径
+outputFile: "../btcw17.json"

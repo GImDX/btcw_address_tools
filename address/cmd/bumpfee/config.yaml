@@ -1,0 +1,26 @@
+# config.yaml
+# 这是一个示例配置文件，用于设置程序参数
+
+# RPC 服务器的 URL，使用节点所有可用钱包
+url: "http://192.168.8.115:9330"
+
+# RPC 服务器的用户名
+username: "USER"
+
+# RPC 服务器的密码
+password: "PASS"
+
+# 防止误操作，false时用于测试，不发送
+isBump: false
+
+# 检查区块高度的时间间隔（秒）
+blockCheckInterval: 7
+
+# 执行bumpfee操作的区块间隔 （块高度间隔）
+bumpfeeBlockInterval: 1
+
+# 费率提升量（sat/vB）
+feeBumpAmount: 10
+
+# 费率上限（sat/vB）
+feeCap: 11600
